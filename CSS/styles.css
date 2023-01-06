@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: black;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  width: 100%;
+}
+
+/* !==========================SIDEBAR START================ */
+.sidebar {
+  width: 30.8%;
+  background-color: rgba(30, 41, 57, 1);
+  height: 240vh;
+}
+
+.siadebar__img-me {
+  position: absolute;
+  top: 12%;
+  left: 0;
+  z-index: 2;
+  width: 30.8%;
+}
+
+.contats__title {
+  font-size: 22px;
+  font-weight: bold;
+  color: white;
+  position: absolute;
+  top: 100%;
+  left: 2%;
+}
+.contact_iteams {
+  position: absolute;
+  top: 108%;
+  left: 2%;
+}
+
+.contact_iteams > p {
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+  line-height: 25px;
+}
+
+.contacts-info {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 108%;
+  left: 7%;
+}
+
+.contacts-info > a {
+  color: rgba(255, 255, 255, 0.5);
+  line-height: 25px;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+#instagram {
+  position: relative;
+  left: 16%;
+}
+
+/* !==========================SIDEBAR END================== */
+
+/* !==========================HEADER START================= */
+.header__title-resume {
+  position: absolute;
+  top: 12%;
+  right: 55%;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.header__title {
+  position: absolute;
+  top: 20%;
+  right: 17%;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.header-info {
+  width: 50%;
+  position: absolute;
+  top: 40%;
+  right: 10%;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 23px;
+}
+
+/* !==========================HEADER END=================== */
+/* !========================FEATURE START===================*/
+
+.features {
+  margin-right: 22%;
+  position: absolute;
+  top: 100%;
+  right: -16%;
+}
+.feature__title {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 4%;
+  margin-left: -3%;
+}
+
+/* !========================FEATURE END=====================*/
+/* !========================CONTENT PHOTO START============ */
+.content__block {
+  position: absolute;
+  top: 143%;
+  left: 40%;
+}
+.content {
+  width: 43%;
+}
+.content-second {
+  width: 47.9%;
+}
+/* !========================CONTENT PHOTO END============== */
+/* !========================FOOTER START=================== */
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(30, 41, 57, 1);
+}
+.footer__title {
+  color: white;
+  font-size: 22px;
+  font-weight: 600;
+}
+.footer-instagram {
+  margin-left: 4%;
+}
+/* !========================FOOTER END===================== */
